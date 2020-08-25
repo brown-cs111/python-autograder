@@ -2,9 +2,6 @@
 
 # Set up autograder files
 
-# Replace 'calculator.py' with the name of the student submission
-cp /autograder/submission/calculator.py /autograder/source/python-autograder/calculator.py
-
 cd /autograder/source/python-autograder
 
 python run_tests.py > /autograder/results/results.json
