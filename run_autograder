@@ -4,4 +4,4 @@
 
 cd /autograder/source/python-autograder
 
-python run_tests.py > /autograder/results/results.json
+python3 run_tests.py > /autograder/results/results.json
