@@ -2,6 +2,7 @@
 
 # Set up autograder files
 
+# Replace 'calculator.py' with the name of the student submission
 cp /autograder/submission/calculator.py /autograder/source/calculator.py
 
 cd /autograder/source
