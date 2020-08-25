@@ -5,6 +5,6 @@
 # Replace 'calculator.py' with the name of the student submission
 cp /autograder/submission/calculator.py /autograder/source/calculator.py
 
-cd /autograder/source
+cd /autograder/source/python-autograder
 
 python run_tests.py > /autograder/results/results.json
