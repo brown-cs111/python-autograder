@@ -4,9 +4,9 @@ import json
 
 if __name__ == '__main__':
 
-    def handle_json(json):
+    def handle_json(output):
         with open('/autograder/results/results_test.json', 'w') as f1:
-            json.dump(json, f1)
+            json.dump(output, f1)
 
     suite = unittest.defaultTestLoader.discover('/autograder/source/instructor/tests')
     with open('/autograder/results/results.json', 'w') as f:
